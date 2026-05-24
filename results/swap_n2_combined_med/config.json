@@ -1,0 +1,20 @@
+{
+  "target": "swap",
+  "n_qubits": 2,
+  "noise": "combined_med",
+  "noiseless": false,
+  "max_depth": 20,
+  "depth_penalty": 0.005,
+  "reward_shaping": false,
+  "total_steps": 150000,
+  "rollout_steps": 256,
+  "lr": 0.0003,
+  "hidden": 256,
+  "n_epochs": 10,
+  "batch_size": 64,
+  "clip_eps": 0.2,
+  "ent_coef": 0.03,
+  "seed": 42,
+  "out_dir": "results",
+  "run_name": "swap_n2_combined_med"
+}

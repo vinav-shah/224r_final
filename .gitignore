@@ -1,0 +1,20 @@
+# Model checkpoints and large binaries
+*.pt
+*.pth
+
+# Downloaded Modal results (large, regenerable)
+modal_results/
+
+# W&B local runs
+wandb/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store

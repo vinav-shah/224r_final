@@ -1,0 +1,20 @@
+{
+  "target": "ghz",
+  "n_qubits": 3,
+  "noise": "combined_med",
+  "noiseless": false,
+  "max_depth": 20,
+  "depth_penalty": 0.003,
+  "reward_shaping": false,
+  "total_steps": 150000,
+  "rollout_steps": 256,
+  "lr": 0.0003,
+  "hidden": 256,
+  "n_epochs": 10,
+  "batch_size": 64,
+  "clip_eps": 0.2,
+  "ent_coef": 0.05,
+  "seed": 42,
+  "out_dir": "results",
+  "run_name": "ghz_n3_combined_med"
+}

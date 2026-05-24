@@ -1,0 +1,20 @@
+{
+  "target": "bell",
+  "n_qubits": 2,
+  "noise": "depolarizing_weak",
+  "noiseless": false,
+  "max_depth": 15,
+  "depth_penalty": 0.005,
+  "reward_shaping": false,
+  "total_steps": 5000,
+  "rollout_steps": 128,
+  "lr": 0.0003,
+  "hidden": 256,
+  "n_epochs": 10,
+  "batch_size": 64,
+  "clip_eps": 0.2,
+  "ent_coef": 0.01,
+  "seed": 42,
+  "out_dir": "results",
+  "run_name": "smoke_test"
+}
